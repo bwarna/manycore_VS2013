@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption></connectionOption>
+ <rdmgr>
+  <timestamp type="u64_t">1448840018</timestamp>
+  <hostname>Benno-PC</hostname>
+  <os>windows</os>
+  <product>Intel® Inspector XE 2016 Update 1</product>
+  <buildNumber type="s32_t">434495</buildNumber>
+  <logicalCPUCount type="s32_t">4</logicalCPUCount>
+  <CPUFrequency type="s64_t">3398000000</CPUFrequency>
+ </rdmgr>
+ <contextValues>
+  <contextValue>
+   <id>emulatorByCtxKnob</id>
+   <value></value>
+  </contextValue>
+ </contextValues>
+ <All_Configurations-All_Platforms>
+  <analysis_type_settings>
+   <selected_analysis_type_path>E:\Softa\intel\Inspector XE 2016\config\analysis_type\ti3.cfg</selected_analysis_type_path>
+  </analysis_type_settings>
+  <target_settings>
+   <selected_workload>
+    <localhost>launch</localhost>
+   </selected_workload>
+   <result_pattern>
+    <localhost>r@@@{at}</localhost>
+   </result_pattern>
+   <workloads>
+    <localhost>
+     <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>launch</targetName>
+       <enable_app_output_log type="bool">false</enable_app_output_log>
+       <project_id>{BDF74AE3-D5D9-4601-A3C7-E00A6AF5D710}</project_id>
+       <launch_app.app_to_launch>E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\x64\Release\comparediff_cpp.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\puzzlediff_cpp</launch_app.working_folder>
+       <launch_app.environment_prepend>PATH=E:\Softa\intel\compilers_and_libraries_2016\windows\redist\intel64\compiler;</launch_app.environment_prepend>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\puzzlediff_cpp\My Inspector XE Results - comparediff_cpp\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\x64\Release</value>
+        </item>
+        <item>
+         <value>sym=E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\Benjamin\AppData\Local\Temp\SymbolCache</value>
+        </item>
+        <item>
+         <value>sym=srv*C:\Users\Benjamin\AppData\Local\Temp\SymbolCache*http://msdl.microsoft.com/download/symbols</value>
+        </item>
+        <item>
+         <value>bin=E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\x64\Release</value>
+        </item>
+        <item>
+         <value>bin=E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010</value>
+        </item>
+        <item>
+         <value>bin=E:\Softa\intel\compilers_and_libraries_2016\windows\bin\Intel64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\bin\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\bin\x86</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\HTML Help Workshop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\MSBuild\12.0\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86</value>
+        </item>
+        <item>
+         <value>bin=E:\Softa\intel\Trace Analyzer and Collector\9.1.2.024\bin</value>
+        </item>
+        <item>
+         <value>bin=E:\Softa\intel\compilers_and_libraries_2016.1.146\windows\mpi\intel64\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Python27\Lib\site-packages\PyQt4</value>
+        </item>
+        <item>
+         <value>bin=C:\Python27</value>
+        </item>
+        <item>
+         <value>bin=C:\ProgramData\Oracle\Java\javapath</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft HPC Pack 2008 R2\Bin</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\WINDOWS\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Git\cmd</value>
+        </item>
+        <item>
+         <value>bin=C:\Python27\Lib</value>
+        </item>
+        <item>
+         <value>bin=C:\Python27\DLLs</value>
+        </item>
+        <item>
+         <value>bin=C:\Python27\Lib\lib-tk</value>
+        </item>
+        <item>
+         <value>bin=C:\Python27\Scripts</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\110\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft\Web Platform Installer</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=E:\Softa\Ampps\php</value>
+        </item>
+        <item>
+         <value>bin=C:\ProgramData\ComposerSetup\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common</value>
+        </item>
+        <item>
+         <value>bin=C:\windows\system32\downlevel</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\CilkTools\bin</value>
+        </item>
+        <item>
+         <value>bin=E:\Softa\intel\Trace Analyzer and Collector\9.1.2.024\dll</value>
+        </item>
+        <item>
+         <value>bin=E:\Softa\Anaconda</value>
+        </item>
+        <item>
+         <value>bin=E:\Softa\Anaconda\Scripts</value>
+        </item>
+        <item>
+         <value>bin=C:\Chocolatey\bin</value>
+        </item>
+       </search_directories>
+       <exclude_modules type="bag"/>
+       <context>
+        <contextValue>
+         <id>appdebug</id>
+         <value>off</value>
+        </contextValue>
+        <contextValue>
+         <id>custom_debugger</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>debug_this_problem</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>debug_using</id>
+         <value>gdb</value>
+        </contextValue>
+        <contextValue>
+         <id>heartbeat</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>modules_switch</id>
+         <value>knob.modules_switch.include</value>
+        </contextValue>
+        <contextValue>
+         <id>mrte_mode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>process_for_analysis</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>suppressions</id>
+         <value>delete</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>launch</value>
+        </contextValue>
+       </context>
+      </workload>
+     </launch>
+    </localhost>
+   </workloads>
+  </target_settings>
+ </All_Configurations-All_Platforms>
+</root>

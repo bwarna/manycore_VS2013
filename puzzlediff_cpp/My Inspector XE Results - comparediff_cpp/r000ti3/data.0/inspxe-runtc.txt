@@ -1,0 +1,27 @@
+
+=== Start: [2015/11/30 01:33:44] === 
+Analysis started...
+Result file: E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\puzzlediff_cpp\My Inspector XE Results - comparediff_cpp\r000ti3\r000ti3.inspxe 
+Found target process e:\downloads och drivers\puzzle_vs2010_solution_2012 (2)\puzzle_vs2010\x64\release\comparediff_cpp.exe (PID = 1216). Analysis started... 
+Loaded module: E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\x64\Release\comparediff_cpp.exe. 
+Loaded module: C:\WINDOWS\system32\KERNELBASE.dll. 
+Loaded module: C:\WINDOWS\system32\KERNEL32.DLL. 
+Loaded module: C:\WINDOWS\SYSTEM32\ntdll.dll. 
+Loaded module: C:\WINDOWS\SYSTEM32\MSVCR120.dll. 
+Loaded module: C:\WINDOWS\SYSTEM32\MSVCP120.dll. 
+Loaded module: E:\Softa\intel\compilers_and_libraries_2016\windows\redist\intel64\compiler\svml_dispmd.dll. 
+Loaded module: E:\Softa\intel\compilers_and_libraries_2016\windows\redist\intel64\compiler\libmmd.dll. 
+Warning: Inspector does not support the Microsoft Parallel Patterns Library and may report false positives. Refer to the product release notes. 
+Unloaded module: E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\x64\Release\comparediff_cpp.exe. 
+Unloaded module: C:\WINDOWS\system32\KERNELBASE.dll. 
+Unloaded module: C:\WINDOWS\system32\KERNEL32.DLL. 
+Unloaded module: C:\WINDOWS\SYSTEM32\ntdll.dll. 
+Unloaded module: C:\WINDOWS\SYSTEM32\MSVCR120.dll. 
+Unloaded module: C:\WINDOWS\SYSTEM32\MSVCP120.dll. 
+Unloaded module: E:\Softa\intel\compilers_and_libraries_2016\windows\redist\intel64\compiler\svml_dispmd.dll. 
+Unloaded module: E:\Softa\intel\compilers_and_libraries_2016\windows\redist\intel64\compiler\libmmd.dll. 
+Process e:\downloads och drivers\puzzle_vs2010_solution_2012 (2)\puzzle_vs2010\x64\release\comparediff_cpp.exe (PID = 1216) has terminated. 
+Application exit code: 0 
+Result file: E:\Downloads och drivers\Puzzle_vs2010_solution_2012 (2)\Puzzle_vs2010\puzzlediff_cpp\My Inspector XE Results - comparediff_cpp\r000ti3\r000ti3.inspxe 
+Analysis completed
+=== End: [2015/11/30 01:33:53] === 
