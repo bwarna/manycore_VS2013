@@ -2,6 +2,11 @@
 #include "puzzle_p.h"
 #include "puzzle.h"
 #include "globals.h"
+#include <stdio.h>
+#ifndef __cilk
+#include <cilk/cilk_stub.h>
+#endif
+#include <cilk\cilk.h>
 
 static void puzzle_init_view(PuzzleView * const view)
 {
@@ -497,6 +502,7 @@ static int puzzle_fill_dvec(PuzzleDvec * const dvec,
         return -1;
     }
     vecur = dvec->vec;
+	/*
     lx = 0U;
     do {
         ly = 0U;
@@ -505,6 +511,13 @@ static int puzzle_fill_dvec(PuzzleDvec * const dvec,
                                         avglvls, lx, ly);
         } while (++ly < lambdas);
     } while (++lx < lambdas);
+	*/
+	cilk_for (lx = 0U; lx < lambdas; lx++){
+		cilk_for (ly = 0U; ly < lambdas; ly++){
+			(void) puzzle_add_neighbors(&vecur, PUZZLE_NEIGHBORS,
+				avglvls, lx, ly);
+		}
+	}
     dvec->sizeof_compressed_vec = (size_t) (vecur - dvec->vec);
 
     return 0;
