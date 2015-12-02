@@ -10,7 +10,7 @@ extern "C"
 #include "pgetopt.hpp"
 #include <iostream>
 #include <fstream>
-#include <dirent.h>
+#include "dirent.h"
 #include <set>
 #include <string>
 #include <ctime>

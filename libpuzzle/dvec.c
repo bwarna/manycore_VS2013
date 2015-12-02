@@ -487,7 +487,7 @@ static int puzzle_fill_dvec(PuzzleDvec * const dvec,
                             const PuzzleAvgLvls * const avglvls)
 {
     unsigned int lambdas;
-    unsigned int lx, ly;
+    //unsigned int lx, ly;
     double *vecur;
     
     lambdas = avglvls->lambdas;
@@ -512,8 +512,8 @@ static int puzzle_fill_dvec(PuzzleDvec * const dvec,
         } while (++ly < lambdas);
     } while (++lx < lambdas);
 	*/
-	cilk_for (lx = 0U; lx < lambdas; lx++){
-		cilk_for (ly = 0U; ly < lambdas; ly++){
+	cilk_for (int lx = 0U; lx < lambdas; lx++){
+		cilk_for (int ly = 0U; ly < lambdas; ly++){
 			(void) puzzle_add_neighbors(&vecur, PUZZLE_NEIGHBORS,
 				avglvls, lx, ly);
 		}
