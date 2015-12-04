@@ -1,6 +1,4 @@
-#include <vector>
-#include <string>
-#include <windows.h>
+#include "listdir.hpp";
 
 /* Example on how listDir could be called */
 //std::vector<std::string> fileNamesVector;

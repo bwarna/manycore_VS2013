@@ -487,7 +487,7 @@ static int puzzle_fill_dvec(PuzzleDvec * const dvec,
                             const PuzzleAvgLvls * const avglvls)
 {
     unsigned int lambdas;
-    //unsigned int lx, ly;
+    unsigned int lx, ly;
     double *vecur;
     
     lambdas = avglvls->lambdas;
@@ -502,7 +502,7 @@ static int puzzle_fill_dvec(PuzzleDvec * const dvec,
         return -1;
     }
     vecur = dvec->vec;
-	/*
+	
     lx = 0U;
     do {
         ly = 0U;
@@ -511,13 +511,14 @@ static int puzzle_fill_dvec(PuzzleDvec * const dvec,
                                         avglvls, lx, ly);
         } while (++ly < lambdas);
     } while (++lx < lambdas);
-	*/
-	cilk_for (int lx = 0U; lx < lambdas; lx++){
-		cilk_for (int ly = 0U; ly < lambdas; ly++){
+	/*
+	cilk_for (unsigned int lx = 1U; lx < lambdas; lx++){
+		cilk_for (unsigned int ly = 1U; ly < lambdas; ly++){
 			(void) puzzle_add_neighbors(&vecur, PUZZLE_NEIGHBORS,
 				avglvls, lx, ly);
 		}
 	}
+	*/
     dvec->sizeof_compressed_vec = (size_t) (vecur - dvec->vec);
 
     return 0;
