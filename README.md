@@ -11,3 +11,4 @@ E.g.
 ```
 comparediff_cpp.exe E:\small_picture_set\0_5mpix_boat.jpg E:\small_picture_set\
 ```
+#testintesting
